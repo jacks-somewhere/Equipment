@@ -4,24 +4,24 @@
   -	2 ssd and 2 hdd drives worked, user information still on them
   -	Booted to Windows 10 pro
     -	2 failed to boot
-4-	Dell was powered up and failed to boot
+4- Dell was powered up and failed to boot
   -	Error: 180w power supply required
   -	Different outlet tested, fail
   -	Alternate power supply tested, fail
   -	Different wall outlet cord tested, fail
   -	Fount Reddit post comment, success 
-    i.	Do not push power plug in all the way, only intel the front light turns on
+    i. Do not push power plug in all the way, only intel the front light turns on
     ii.	Get the error unknown power supply
-    iii.	Go to bios and turn off low power warning
+    iii. Go to bios and turn off low power warning
     iv.	Apply changes and exit
   -	Booted to ghostspectre without any hard drive 
   -	Rebooted, no issues
   -	Power supply disconnected and reconnected, no issues 
-5-	Tested Thinkcentres 2-5 with 1 working hard drive
+5- Tested Thinkcentres 2-5 with 1 working hard drive
   -	Think 2, success
-    i.	Made loud beeping when plugged into power no display, removed and put back in ram
+    i. Made loud beeping when plugged into power no display, removed and put back in ram
   -	Think 3, success 
   -	Think 4, success 
   -	Think 5, success
-6-	Created a windows 10 boot drive
+6- Created a windows 10 boot drive
   -	Formatted all drives by booting though usb
