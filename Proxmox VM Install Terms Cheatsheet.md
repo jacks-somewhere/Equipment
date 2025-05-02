@@ -26,12 +26,17 @@ Version: Year of operating sytem, kernel version
 ## System
 Graphics Card: Virtual display adapter 
 - Default is typically fine
+
 Machine: Layout of the VMs Virtual Motherboard
 - Default is typically fine
+
 SCSI Controller: Controls communication between the VM and devices (storage)
 - Default is typically fine
+
 QEMU Agent: Indicates whether Guest Agent is installed 
+
 BIOS: BIOS or firmware interface VM is built on
+
 Add TPM: Add a trusted platform module
 
 ## Disks
