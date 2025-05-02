@@ -3,18 +3,24 @@ Definition of terms and options seen during the VM creation process
 
 ## General
 Node: Physical location where VM will be hosted
+
 VM ID: Numeric number assigned to VM
 - Can be auto or manually assigned a number
 - Only used for identification
+
 Name: Assigned name
 - Only used for identification
+
 Resource Pool: logical group of VMs for organization or group permission purposes
 
 ## OS
 ### Use CD/DVD
 Storage: Location where ISO image stored
+
 ISO Image: ISO file of operating system, must end in .iso
+
 Type: Operating System type (Windows, Linux, etc)
+
 Version: Year of operating sytem, kernel version
 
 ## System
