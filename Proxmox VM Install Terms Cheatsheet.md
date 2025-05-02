@@ -36,31 +36,45 @@ Add TPM: Add a trusted platform module
 
 ## Disks
 Bus/Devices: Virtual disk interface
+
 Storage: Storage location of VM on chosen Node (Selected Node in General Section)
+
 Disk Size: Amount of storage allocated to VM
+
 Cache: Affects how disk write operations are done
+
 Discard: Shrinks storage space if space is unused/deleted
 - only available with Thin Provisioning
+
 IO Thread: Creates threads for each storage device outside of the main thread
 - Only available with some SCSI controllers
+
 Format: Format type of the storage
 
 ## CPU
 Sockets: number of CPU VM can use
+
 Cores: Number of Cores that VM can use
+
 Type: CPU type that VM will use
 
 ## Memory
 Memory: Amount of RAM allocated 
+
 Ballooning (under Advanced): Allows VM to take more RAM than allocated and give back unused RAM
 
 ## Network
 No Network: Do not setup a network on VM
+
 Bridge: Network bridge used
+
 VLAN Tag: VLAN VM is located on
+
 Model: Type of virtual Network Interface Controller (NIC) will use
+
 MAC Address: MAC address of the VM
 - Can be auto or manually assigned
+
 Firewall: Indicates whether Proxmox's Firewall should be used
 
 
