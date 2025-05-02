@@ -11,7 +11,7 @@ Name: Assigned name
 Resource Pool: logical group of VMs for organization or group permission purposes
 
 ## OS
-Use CD/DVD
+### Use CD/DVD
 Storage: Location where ISO image stored
 ISO Image: ISO file of operating system, must end in .iso
 Type: Operating System type (Windows, Linux, etc)
