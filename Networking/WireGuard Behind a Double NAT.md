@@ -10,7 +10,7 @@ Comparison.
 
 - No account required
 
-- Only requires a host – peer connection to work
+- Only requires a host-to-peer connection to work
 
 - Quick (depending on network)
 
@@ -52,8 +52,15 @@ Comparison.
 
 Based on this, WireGuard was chosen mainly due to having more control and privacy.
 
-# Set up 
+# Setup 
 Please Note that between attempts WireGuard was deleted.
+
+Equipment Used:
+- 1 ISP router (Upstream)
+
+- 1 Consumer Grade Router (Connected via Ethernet to ISP router)
+
+- Proxmox Server (Connected to Consumer Grade Router via Ethernet)
 ## 1st attempt
 ### Install
 1- Setup WireGuard using this Github repository: https://github.com/Nyr/wireguard-install
@@ -79,11 +86,11 @@ Internet was working, no connection to other devices
 
  	- All other routing was correct
 -	Asked ChatGPT to help troubleshoot
-  - Followed it directions to verify masquerading, forwarding, container configuration, and more
-    - Nothing worked
+    - Followed it directions to verify masquerading, forwarding, container configuration, and more
+        - Nothing worked
 -	Checked Reddit for solutions
-  - Unchecked ‘Block Untunneled Traffic’
-    - Able to see other devices on network
+    - Unchecked ‘Block Untunneled Traffic’
+        - Able to see other devices on network
 ### Results
 Unchecking ‘Block Untunneled Traffic’ allowed connections to other devices on network. VPN was still not working while on other networks, no internet, no connection to other devices.
 
@@ -103,7 +110,8 @@ Internet was working, no connection to other devices
  	- Connection showed disconnected when connected to another network despite showing connected on the peer
 -	Got TCPDump to finally install and run on WireGuard container
     - Results showed UDP packet traffic on the configured port while on the same network as server
-    - UDP packet traffic stopped when the network was switched to the upstream router and then to cellar. 
+
+ 	- UDP packet traffic stopped when the network was switched to the upstream router and then off the network. 
 -	Ran Nmap on upstream router
     - Configured port shows closed to both TCP and UDP traffic
 ### Results
