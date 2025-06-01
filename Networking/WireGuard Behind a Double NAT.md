@@ -61,31 +61,27 @@ Please Note that between attempts WireGuard was deleted.
 2- Installed and setup tunnel in Wireguard app on computer
 
 ### Initial Testing
-
--	No internet connection, No connection to other devices on the network
+No internet connection, No connection to other devices on the network
 
 ### Troubleshooting
 
 -	Updated routing settings on both routers
-
-  - No Internet, no devices seen
+    - No Internet, no devices seen
 
 ## 2nd attempt and on
 
 ### Install
 1- Setup WireGuard in a new container using the Proxmox VE Helper Scripts
+
 2- Set up account on dashboard and created a configuration
+
 3- Installed and setup tunnel on WireGuard app on computer
 ### Initial testing
-
 Internet was working, no connection to other devices
-
 ### Troubleshooting
 -	Checked routing on both routers
-
-  - Port forwarding was set to the correct ports/location on both routers
-
-  - All other routing was correct
+    - Port forwarding was set to the correct ports/location on both routers
+    - All other routing was correct
 
 -	Asked ChatGPT to help troubleshoot
 
