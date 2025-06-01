@@ -41,6 +41,7 @@ Equipment Used:
 ## 1st attempt
 ### Install
 1- Setup WireGuard using this Github repository: https://github.com/Nyr/wireguard-install
+
 2- Installed and setup tunnel in Wireguard app on computer
 ### Initial Testing
 No internet connection, No connection to other devices on the network
@@ -50,7 +51,9 @@ No internet connection, No connection to other devices on the network
 ## 2nd attempt and on
 ### Install
 1- Setup WireGuard in a new container using the Proxmox VE Helper Scripts
+
 2- Set up account on dashboard and created a configuration
+
 3- Installed and setup tunnel on WireGuard app on computer
 ### Initial testing
 Internet was working, no connection to other devices
@@ -69,7 +72,9 @@ Unchecking ‘Block Untunneled Traffic’ allowed connections to other devices o
 # Nth attempt
 ### Install
 1- Setup WireGuard in a new container using the Proxmox VE Helper Scripts
+
 2- Set up account on dashboard and created a configuration
+
 3- Installed and setup tunnel on WireGuard app on computer
 ### Initial testing
 Internet was working, no connection to other devices
