@@ -17,7 +17,6 @@ This worked for my setup, that may not be true for yours.
   - Connection Type: Static IP
   - IP Address: (see Note 1)
       - Note 1: Check the upstream routers IP pool, it should be something like 192.168.0.1 or 192.168.1.1. If the IP pool is 192.168.1.1 set new routers IP to 192.168.1.2. If the IP pool is 192.168.0.1, set new routers IP to 192.168.0.2.
-        - New router is the second device on the network. The router connecting to the modem is the first and the new router is the second.
   - Subnet Mask: Default
   - Default Gateway: (see note 2)
     - Note 2: Based on the IP address setting above, set the gateway to 192.168.1.1 (IP ending in 1.1) or 192.168.0.1 (IP ending in 0.1).
