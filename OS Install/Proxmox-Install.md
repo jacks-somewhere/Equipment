@@ -13,7 +13,9 @@ Proxmox install guild using a computer, USB drive, montor, and keyboard
 
 # Install Steps
 1- Downlaod Proxmox ISO from website
+  
   - https://www.proxmox.com/en/products/proxmox-virtual-environment/get-started
+
 2- Insert bootable device (USB/CD/DVD) into computer 
 3- Open Rufus and allow it to make changes on your device*
   - *The Proxmox ISO image HAS TO BE INSTALLED THOUGH RUFUS or a similar program. The computer will NOT boot though USB if ISO file is just copied to the bootable device.
