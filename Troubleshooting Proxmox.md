@@ -12,6 +12,7 @@
   - Is the router on?
   - Are you on the correct wifi network?
   - Are you connecting to the the right https address (ip and port)?
+
 2- If everything looks good in Step 2: Reinstall Proxmox on the node
 
 
