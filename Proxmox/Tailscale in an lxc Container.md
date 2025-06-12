@@ -20,7 +20,7 @@ At the bottom of the .conf file (do not delete any lines) add the following line
 
 Save and close the file.
 
-### IN the Container
+### In the Container
 Select the Tailscale container and launch its shell.
 
 First, update the container:
@@ -40,7 +40,7 @@ Copy and paste the provided link into your browser to add the container to your 
 Start command prompt or a terminal depending on your system.
 
 Run:
-	Ssh root@<tailscale ip>
+- ssh root@<tailscale ip>
 
 Enter your container password 
 
