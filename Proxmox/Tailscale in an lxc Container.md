@@ -40,7 +40,7 @@ Copy and paste the provided link into your browser to add the container to your 
 Start command prompt or a terminal depending on your system.
 
 Run:
-- ssh root@<tailscale ip>
+- ssh root@\<tailscale ip\>
 
 Enter your container password 
 
