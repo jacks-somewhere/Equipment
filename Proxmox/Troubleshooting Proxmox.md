@@ -1,11 +1,13 @@
 # Troubleshooting Proxmox Nodes, Containers, and VMs
 
 ## Nodes
-### When trying to install software on node shell: The repository 'https://enterprise.proxmox.com/xxx/xxx...' is not signed, *Similar Error Message
-- This will happen on a fresh install when the defalt repos have not been disabled and updated to the correct ones
-- Run the Proxmox Helper Script found at: https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install
+### Shell
+#### E: Failed to fetch https://enterprise.proxmox.com/xxx/xxx ...
+- Enterprise repos are still enabled on the Node. Disabling them will remove this error. An easy and safe way to do this is to run a post install script from Proxmox Helper Scripts (support to the project!). The script can be found at:
+    - https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install
 
-### When Trying to connect to Web UI on New Install: The connection has timed out
+### Web UI
+#### The connection has timed out
 1- Check that node is correctly connected to the router
   - Is the ethernet cable plugged into the node AND the router?
   - Is the ethernet cable damaged?
@@ -17,7 +19,6 @@
 
 
 ## Containers
-### Bash: <curl, sudo, etc>: command not found
--	Update the container with: apt-get update
--	Run command again
+#### Bash: curl: command not found
+- Update the container using: sudo apt-get update
 
